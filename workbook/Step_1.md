@@ -38,4 +38,4 @@ sudo yum -y install terraform
 which terraform
 ```
 
-**[Watch the Video](Step_1.mp4)**
+**[Watch the Video](https://youtu.be/INC9MbsmYAM)**
