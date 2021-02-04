@@ -1,4 +1,4 @@
-# Step 5 - Create a terraform.tfvars File
+# Step 6 - Create a terraform.tfvars File
 
 1. Back in the CloudShell, make sure you are in the local directory for your
 terraform project. Type `cd ~/tech` and then press TAB.
