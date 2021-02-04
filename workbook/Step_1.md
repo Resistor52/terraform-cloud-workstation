@@ -28,6 +28,7 @@ the second **Install terraform** heading. Select the **Linux** tab and then the
 sudo yum install -y yum-utils
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
 sudo yum -y install terraform
+
 ```
 
 7. Paste these three commands into the CloudShell terminal to install Terraform.
