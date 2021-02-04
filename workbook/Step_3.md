@@ -34,7 +34,7 @@ see your password reflected back to you as you type it into the CloudShell termi
 see a response that corresponds to the name you gave your repo.
 
 12. next type `cd tech` (where "tech" is the first few letters of your repo name)
-and the hit tab and enter. Isn't tab completion wonderful? You should now be in
+and the hit TAB and then ENTER. Isn't tab completion wonderful? You should now be in
 the directory that contains your barebones repository code.
 
 **[Watch the Video](https://youtu.be/m5DiBfHEJ2s)**
