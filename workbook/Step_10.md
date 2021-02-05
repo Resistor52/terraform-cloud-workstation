@@ -95,11 +95,11 @@ Apply complete! Resources: 5 added, 0 changed, 0 destroyed.
 
 8. Now, navigate to the AWS VPC Service in the Web Console and look for the
 following resources:
- - [ ] A VPC named "work-vpc" with a network address of 10.0.0.0/16
- - [ ] A Subnet named "work-subnet" that is associated with the new VPC
- - [ ] An Internet Gateway that is associated with the new VPC named "work-igw"
- - [ ] A Route Table named "work-rtble" with a route to the Internet Gateway
- - [ ] A Route Table Association to link the new Route Table to the new Subnet
+ > - [ ] A VPC named "work-vpc" with a network address of 10.0.0.0/16
+ > - [ ] A Subnet named "work-subnet" that is associated with the new VPC
+ > - [ ] An Internet Gateway that is associated with the new VPC named "work-igw"
+ > - [ ] A Route Table named "work-rtble" with a route to the Internet Gateway
+ > - [ ] A Route Table Association to link the new Route Table to the new Subnet
 
 9. Just for fun, lets deprovision these resources. Run `terraform destroy` and
 then type "yes" when prompted. Look again in the Web Console. The resources are
