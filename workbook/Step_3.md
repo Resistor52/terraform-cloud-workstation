@@ -33,7 +33,7 @@ see your password reflected back to you as you type it into the CloudShell termi
 11. Type `ls` at the prompt in the CloudShell terminal and hit enter. You should
 see a response that corresponds to the name you gave your repo.
 
-12. next type `cd tech` (where "tech" is the first few letters of your repo name)
+12. Next type `cd tech` (where "tech" is the first few letters of your repo name)
 and the hit TAB and then ENTER. Isn't tab completion wonderful? You should now be in
 the directory that contains your barebones repository code.
 

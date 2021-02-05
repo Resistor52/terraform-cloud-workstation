@@ -8,8 +8,8 @@ just the CloudShell.
 the Web Console.
 * DO NOT run aws configure on an EC2 instance, lest your `~/.aws/credentials` file
 get compromised!
-* Since the CloudShell can only be accessed via the Web Console, running it is an
-acceptable risk for this workshop.
+* Since the CloudShell can only be accessed via the Web Console, running
+`aws configure` is an acceptable risk for this workshop.
 
 ## Create a new IAM User
 1. Navigate to the IAM Service in the AWS Web Console

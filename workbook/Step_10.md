@@ -1,8 +1,8 @@
 # Step 10 - main.tf - Add VPC resources
 
-In this step, we will be adding resources to the `main.tf` to create a VPC. Then
-we will test it by having Terraform deploy the resources and we will verify their
-creation via the AWS Web Console.
+In this step, we will be adding resources to the `main.tf` to create a VPC. We will
+test it by having Terraform deploy the resources and then we will verify the deployed
+resources via the AWS Web Console.
 
 1. In the CloudShell, make sure you are in the directory of the local git repo. Run
 `cd ~/tech` and then press TAB, then ENTER.
@@ -95,11 +95,11 @@ Apply complete! Resources: 5 added, 0 changed, 0 destroyed.
 
 8. Now, navigate to the AWS VPC Service in the Web Console and look for the
 following resources:
-[] A VPC named "work-vpc" with a network address of 10.0.0.0/16
-[] A Subnet named "work-subnet" that is associated with the new VPC
-[] An Internet Gateway that is associated with the new VPC named "work-igw"
-[] A Route Table named "work-rtble" with a route to the Internet Gateway
-[] A Route Table Association to link the new Route Table to the new Subnet
+ - [] A VPC named "work-vpc" with a network address of 10.0.0.0/16
+ - [] A Subnet named "work-subnet" that is associated with the new VPC
+ - [] An Internet Gateway that is associated with the new VPC named "work-igw"
+ - [] A Route Table named "work-rtble" with a route to the Internet Gateway
+ - [] A Route Table Association to link the new Route Table to the new Subnet
 
 9. Just for fun, lets deprovision these resources. Run `terraform destroy` and
 then type "yes" when prompted. Look again in the Web Console. The resources are
@@ -127,4 +127,4 @@ by typing `git add .gitignore`
 15. Check it out on your browser tab that has your Github repo open. Notice the
 change once you hit refresh.
 
-**[Watch the Video](hhttps://youtu.be/e_SpOR4az2M)**
+**[Watch the Video](https://youtu.be/e_SpOR4az2M)**

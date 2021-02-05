@@ -2,7 +2,6 @@
 
 1. Open a new browser tab and navigate to
 https://docs.aws.amazon.com/cli/latest/userguide/cli-services-ec2-keypairs.html#creating-a-key-pair
-
 This is the reference for how to use the AWS CLI to create a SSH Key Pair.
 
 2. Navigate back to the CloudShell and click in the terminal to plant your curser.

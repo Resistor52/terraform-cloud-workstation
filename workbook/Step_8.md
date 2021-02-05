@@ -30,7 +30,7 @@ variable "aws_pem" {
 
 ```
 
-5. Next, specify the provider, which in our case is "aws." providers are a Terraform
+5. Next, specify the provider, which in our case is "aws". Providers are a Terraform
 plugin to manage a specific infrastructure platform. [You can read all about providers
 in the Terraform documentation](https://www.terraform.io/docs/language/providers/index.html).
 As you can see below, some providers require configuration. Copy and paste the following block

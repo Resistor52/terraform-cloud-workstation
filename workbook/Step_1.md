@@ -39,4 +39,8 @@ sudo yum -y install terraform
 which terraform
 ```
 
+**IMPORTANT:** Due to a quirk with AWS CloudShell (Unlike with the cloud shells
+of Azure and GCP) you may need to reinstall Terraform if the CloudShell times out.
+
+
 **[Watch the Video](https://youtu.be/INC9MbsmYAM)**

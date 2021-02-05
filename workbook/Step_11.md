@@ -1,6 +1,7 @@
 # Step 11 - main.tf - Add Security Group
 
-1. As before, edit `main.tf` and add in the following lines:
+1. As before, edit `main.tf` and add in the following lines to the bottom of the
+file:
 
 ```
 resource "aws_security_group" "work-sg" {
@@ -52,6 +53,7 @@ tear down the resources, so DO NOT run `terraform destroy`
 5. Type `git add *` and then `git commit -m "Added Security Group to main.tf"`
 6. Push it to Github: `git push origin main`
 
-
+**INFO:** Learn about other Terraform functions, like chomp,
+[here](https://www.terraform.io/docs/language/functions/index.html)
 
 **[Watch the Video](https://youtu.be/Kr_YAMbrnWU)**

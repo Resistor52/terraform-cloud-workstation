@@ -46,7 +46,7 @@ commands will detect it and remind you to do so if necessary.
 ```
 
 **NOTE:** If the output does not look like this, check both `terraform.tfvars` and
-`main.tf` for typos.
+`main.tf` for typos and rerun `terraform init`.
 
 3. Next, type `ls -als` to see if any new files were added. You should notice two
 new additions:
@@ -78,7 +78,7 @@ actions need to be performed.
 [here](https://www.terraform.io/docs/cli/commands/plan.html)
 
 That really should not be a surprise, because we have not added any resources to
-deploy to the script. We will do that the next step.
+deploy to the script yet. We will do that the upcoming steps.
 
 5. First, let's do a `git status`. This command reports three untracked items:
   * terraform.lock.hcl
