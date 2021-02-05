@@ -19,6 +19,11 @@ aws_profile = "myterraform"
 ```
 
 5. Next hit ESC and then type `:wq` to save the file and then quit Vim
+
+**NOTE:** Use ":q!" to quit without saving.
+
+**REFERENCE:** [Vim Cheatsheet](https://vim.rtorr.com/)
+
 6. Type `ls` to see that the `terraform.tfvars` file has been added.
 
 **[Watch the Video](https://youtu.be/EtXHvlSiQb0)**
