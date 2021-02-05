@@ -112,6 +112,10 @@ show as modified, there are two new files:
 
 11. Add these two files to `.gitignore`   HINT: `vim .gitignore`
 
+**NOTE:** The tfstate files keep track of what Terraform has deployed to _your_
+environment, and although they should be backed up in production, they do not
+belong in a code repository, lest they confuse others who use your code.
+
 12. Run `git status` again. Type `git add *` and then `git status`. Hmm, notice
 that the "*" didn't pick up the `.gitignore` file because it is hidden. So add it
 by typing `git add .gitignore`
