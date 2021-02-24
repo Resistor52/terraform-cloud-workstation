@@ -200,6 +200,10 @@ resource "aws_security_group_rule" "sg-rdp2" {
 the `workstation1.sh` start up script using `tail -f /tmp/first-boot.log` in a SSH
 session. (Use a second CloudShell Tab.)
 9. After the start up script has completed, you will now be able to RDP using the
-IP address and credentials output by Terraform.
+IP address and credentials output by Terraform. Try it out.
+10. Type `git add *` and then `git commit -m "Added content to workstation1.sh"`
+11. Push it to Github: `git push origin main`
+12. Check it out on Github by refreshing that browser tab.
 
-**[Watch the Video](ZZZZZZZZZ)**
+
+**[Watch the Video](https://youtu.be/9JMb2ir5jC0)**
