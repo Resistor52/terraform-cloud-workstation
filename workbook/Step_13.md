@@ -169,7 +169,7 @@ for the rule.
 the IP address it displays. This is your public IP address.
 
 3. Run `vim terraform.tfvars` enter insert mode, move to the bottom of the file and
-add `alt_rdp_source_ip = "127.0.01/32"` But be sure to replace `127.0.0.1` with the address
+add `alt_rdp_source_ip = "127.0.0.1/32"` But be sure to replace `127.0.0.1` with the address
 obtained in the previous step.
 
 4. Run `vim main.tf` and add the following line to the end of the variable blocks:
