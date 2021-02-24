@@ -121,9 +121,9 @@ the quotation marks). Then click on the "Actions" drop down field, in the upper 
 corner of the CloudShell. Select "New tab." Paste the clipboard contents into the
 terminal and hit ENTER. Select "yes" when prompted if you want to connect.
 12. Type "exit" in the SSH session terminal and close that CloudShell tab.
-**Imortant: Leave the opther CloudShell tab open!
+**Imortant:** Leave the other CloudShell tab open!
 
-**NOTE:** You will not be able to RDP yet. We add that capability soon.
+**NOTE:** You will not be able to RDP yet. We add that capability in the next step.
 
 13. Type `git add *` and then `git commit -m "Added EC2 Instance to main.tf"`
 14. Push it to Github: `git push origin main`

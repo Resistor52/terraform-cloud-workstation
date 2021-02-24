@@ -26,7 +26,7 @@ Now that we have launched an Ubuntu instance, let's poke around and see what we 
 
 4. Open a new CloudShell tab and SSH into the instance as performed in the last lab.
 Use the displayed ssh_connection_string.
-5. At the SSH prompt, run `sudo cat /var/lib/cloud/instance/user-data.tx`. Look familiar?
+5. At the SSH prompt, run `sudo cat /var/lib/cloud/instance/user-data.txt`. Look familiar?
 This is where the user-data gets stored when it is passed to the system.
 6. There is also a trick to fetch the user data script from the
 [EC2 Metadataservice](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
@@ -154,8 +154,9 @@ setup script. If the script has not finished before you SSH in, you should get a
 less pager.
 
 ## RDP Into Cloud Workstation
-1. Next, we will RDP into our cloud workstation. On a Windows system, click the Windows Key
-and then type "mstsc" to launch the **M**icro**s**oft **t**erminal **s**ervices **c**lient
+1. After confirming that the start-up sript has completed, we will RDP into our cloud
+workstation. On a Windows system, click the Windows Key and then type "mstsc" to
+launch the **M**icro**s**oft **t**erminal **s**ervices **c**lient
 (RDP client). Macintosh users will need to have set up the MacOs client, per
 [these instrictions](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac). Enter the RDP_address (without quotes) as displayed in the CloudShell.
 Click "Connect," and try to connect.
@@ -202,9 +203,3 @@ session. (Use a second CloudShell Tab.)
 IP address and credentials output by Terraform.
 
 **[Watch the Video](ZZZZZZZZZ)**
-
-
-#TODO: 
--[] Record this video
--[] Update and Complete PowerPoint
--[] Step 14 - Add the Polish and README
