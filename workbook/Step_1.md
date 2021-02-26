@@ -31,7 +31,19 @@ sudo yum -y install terraform
 
 ```
 
-7. Paste these three commands into the CloudShell terminal to install Terraform.
+The above commands work, but the problem is that anything which is not installed in the
+user's home directory will not persist after the CloudShell restarts. The work-around
+is to perform a manual installation of the pre-compiled binary.
+
+7. Just run the following commands:
+
+```
+wget https://releases.hashicorp.com/terraform/0.14.7/terraform_0.14.7_linux_amd64.zip
+unzip terraform*.zip
+mkdir ~/bin
+mv terraform ~/bin/
+rm terraform*.zip
+```
 
 8. Finally, verify that terraform is installed by typing:
 
@@ -39,9 +51,10 @@ sudo yum -y install terraform
 which terraform
 ```
 
-----------------------------------------------------------------------------------
-**IMPORTANT:** Due to a quirk with AWS CloudShell (Unlike with the cloud shells
-of Azure and GCP) you may need to reinstall Terraform if CloudShell times out.
-----------------------------------------------------------------------------------
+and then type:
+
+```
+terraform help
+```
 
 **[Watch the Video](https://youtu.be/INC9MbsmYAM)**

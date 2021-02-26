@@ -1,4 +1,4 @@
-# tech-tue-cloud-workstation
+# ZZZZZZZZZZ
 This terraform script deploys an Ubuntu Workstation with minimal additional software
 installed. An example use case if a temporary sandbox system for surfing potentially
 dangerous websites. _NOTE: Don't break the law, as AWS Terms of Service still apply
@@ -49,6 +49,8 @@ script has completed:
 NOTICE: First Boot Setup Has Completed
 ```
 
-After that point it is ready for an RDP Connection.
+After that point it is ready for an Remote Desktop (RDP) Connection. Use an RDP client,
+such as Microsoft Terminal Services Client (MSTSC) to RDP to the IP address that is output
+by the Terraform script.
 
 **DON'T FORGET TO CHANGE THE RDP PASSWORD AFTER LOGON**
