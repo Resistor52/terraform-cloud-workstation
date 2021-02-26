@@ -6,10 +6,14 @@ and this is not exactly covert._
 
 ## DEPLOYMENT
 Git clone the repository and provision the cloud workstation by running the following
-commands:
+commands, one at a time:
 
 ```
 git clone XXXXXXXXXX
+```
+and then
+
+```
 cd ZZZZZZZZZZ
 ```
 

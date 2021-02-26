@@ -23,7 +23,7 @@ cd ZZZZZZZZZZ
 ```
 REPO=$(grep url .git/config | cut -d'=' -f2)
 sed -i "s|XXXXXXXXXX|$REPO|" README.md
-DIR=$(pwd | cut -d'/' -f4
+DIR=$(pwd | cut -d'/' -f4)
 sed -i "s|ZZZZZZZZZZ|$DIR|" README.md
 ```
 
