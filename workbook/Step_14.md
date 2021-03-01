@@ -10,7 +10,7 @@ a template for the README.md from the Internet:
 wget https://raw.githubusercontent.com/Resistor52/terraform-cloud-workstation/main/README-template.md -O README.md
 ```
 
-2. Take a look at the top of the new README.md file using `head -n20 README.md` and you
+2. Take a look at the top of the new README.md file using `head -n19 README.md` and you
 will see lines that contain the following:
 
 ```
@@ -34,7 +34,7 @@ sed -i "s|ZZZZZZZZZZ|$DIR|" README.md
 4. Run the head command to see the resultant changes:
 
 ```
-`head -n20 README.md`
+`head -n19 README.md`
 ```
 
 5. Type `git add README*` and then `git commit -m "Updated README"`
