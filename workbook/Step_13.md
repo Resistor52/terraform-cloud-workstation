@@ -196,11 +196,9 @@ resource "aws_security_group_rule" "sg-rdp2" {
 ```
 6. Save your changes and then run `terraform validate`
 7. Deploy the changes using `terraform apply`
-8. Once the terraform script has deployed the workstation, monitor the progress of
-the `workstation1.sh` start up script using `tail -f /tmp/first-boot.log` in a SSH
-session. (Use a second CloudShell Tab.)
-9. After the start up script has completed, you will now be able to RDP using the
-IP address and credentials output by Terraform. Try it out.
+8. This time Terraform did not need to destroy and then relaunch another virtual
+machine. Once the script has completed, you will now be able to RDP using the IP
+address and credentials output by Terraform. Try it out.
 10. Type `git add *` and then `git commit -m "Added content to workstation1.sh"`
 11. Push it to Github: `git push origin main`
 12. Check it out on Github by refreshing that browser tab.

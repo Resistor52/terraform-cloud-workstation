@@ -101,30 +101,31 @@ following resources:
  > - [ ] A Route Table named "work-rtble" with a route to the Internet Gateway
  > - [ ] A Route Table Association to link the new Route Table to the new Subnet
 
-9. Just for fun, lets deprovision these resources. Run `terraform destroy` and
-then type "yes" when prompted. Look again in the Web Console. The resources are
-no longer present.
-
-10. Now run `git status` and note that besides the `main.tf` file we expected to
+9. Now run `git status` and note that besides the `main.tf` file we expected to
 show as modified, there are two new files:
+
 * terraform.tfstate
 * terraform.tfstate.backup
 
-11. Add these two files to `.gitignore`   HINT: `vim .gitignore`
+10. Add these two files to .gitignore HINT: vim .gitignore
 
 **NOTE:** The tfstate files keep track of what Terraform has deployed to _your_
 environment, and although they should be backed up in production, they do not
 belong in a code repository, lest they confuse others who use your code.
 
-12. Run `git status` again. Type `git add *` and then `git status`. Hmm, notice
+11. Run `git status` again. Type `git add *` and then `git status`. Hmm, notice
 that the "*" didn't pick up the `.gitignore` file because it is hidden. So add it
 by typing `git add .gitignore`
 
-13. Ok, time to commit it. Type `git commit -m "added VPC to main.tf"`
+12. Ok, time to commit it. Type `git commit -m "added VPC to main.tf"`
 
-14. Push it to Github: `git push origin main`
+13. Push it to Github: `git push origin main`
 
-15. Check it out on your browser tab that has your Github repo open. Notice the
+14. Check it out on your browser tab that has your Github repo open. Notice the
 change once you hit refresh.
+
+15. Just for fun, lets deprovision these resources. Run `terraform destroy` and
+then type "yes" when prompted. Look again in the Web Console. The resources are
+no longer present.
 
 **[Watch the Video](https://youtu.be/e_SpOR4az2M)**

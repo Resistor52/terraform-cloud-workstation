@@ -37,7 +37,7 @@ output "RDP_Password" {
 **IMPORTANT:** Did you notice that this script will launch a t3.xlarge? This will cost
 $0.1664 per Hour according to the
 [EC2 On Demand Pricing Page](https://aws.amazon.com/ec2/pricing/on-demand/). Feel
-Free to change it to another valid instance type.
+Free to change it to another [valid instance type](https://aws.amazon.com/ec2/instance-types/).
 
 **NOTE:** We added a new block type, an output block. This defines information to be
 displayed to the terminal when the script runs. It can display:
