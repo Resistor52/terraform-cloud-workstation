@@ -1,4 +1,4 @@
-# Step 6 - Perform First git commit
+# Step 7 - Perform First git commit
 
 1. Back in the CloudShell, run the following commands, replacing "you@example.com" with your email and
 "Your Name" with your actual name (not your Github Username):
