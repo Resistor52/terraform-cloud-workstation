@@ -46,7 +46,8 @@ mode. Curser to the last line of the file and then press "dd" to delete the enti
 paste the following code and save it:
 
 ```
-/bin/echo "*****UPDATE*****" > /tmp/first-boot.log
+/bin/echo "Script Start Time: "$(/bin/date) > /tmp/first-boot.log
+/bin/echo "*****UPDATE*****" >> /tmp/first-boot.log
 /usr/bin/apt update -y >> /tmp/first-boot.log 2>&1
 /bin/echo "*****UPGRADE*****" >> /tmp/first-boot.log
 DEBIAN_FRONTEND=noninteractive /usr/bin/apt upgrade -y >> /tmp/first-boot.log 2>&1
@@ -66,7 +67,7 @@ DEBIAN_FRONTEND=noninteractive /usr/bin/apt upgrade -y >> /tmp/first-boot.log 2>
 /bin/echo "***** Fix Broken Packages *****" >> /tmp/first-boot.log
 /usr/bin/apt --fix-broken install -y >> /tmp/first-boot.log 2>&1
 /bin/echo "***** INSTALL Firefox *****" >> /tmp/first-boot.log
-/usr/bin/apt-get install -y firefox 2>&1
+/usr/bin/apt-get install -y firefox >> /tmp/first-boot.log 2>&1
 /bin/echo "***** INSTALL chrome *****" >> /tmp/first-boot.log
 /usr/bin/apt-get install -y gdebi-core >> /tmp/first-boot.log 2>&1
 /usr/bin/wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb >> /tmp/first-boot.log 2>&1
@@ -130,7 +131,9 @@ EOF
 /usr/bin/chown student:student /home/student/Desktop/Terminal.desktop >> /tmp/first-boot.log 2>&1
 /usr/bin/chmod 775 /home/student/Desktop/Terminal.desktop >> /tmp/first-boot.log 2>&1
 /bin/echo "*****DONE*****" >> /tmp/first-boot.log
+/bin/echo "Script Stop Time: "$(/bin/date) >> /tmp/first-boot.log
 /usr/bin/wall "NOTICE: First Boot Setup Has Completed"
+
 
 ```
 
