@@ -84,7 +84,7 @@ should read "Success! The configuration is valid."
 **NOTE:** We don't need to initialize the directory again by running `terraform init`
 again, but it won't harm anything because the command is
 [idempotent](https://stackoverflow.com/questions/1077412/what-is-an-idempotent-operation).
-When we ran init last time, it also validated the Terraform code whil it was at it.
+When we ran init last time, it also validated the Terraform code while it was at it.
 
 7. Great, let's deploy these resources to AWS. Run `terraform apply` and then type
 "yes" when prompted. If all goes well, you should see several messages with the last
