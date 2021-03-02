@@ -131,7 +131,7 @@ EOF
 /usr/bin/chown student:student /home/student/Desktop/Terminal.desktop >> /tmp/first-boot.log 2>&1
 /usr/bin/chmod 775 /home/student/Desktop/Terminal.desktop >> /tmp/first-boot.log 2>&1
 /bin/echo "*****DONE*****" >> /tmp/first-boot.log
-/bin/echo "Script Stop Time: "$(/usr/bin/date) >> /tmp/first-boot.log
+/bin/echo "Script Stop  Time: "$(/usr/bin/date) >> /tmp/first-boot.log
 /usr/bin/wall "NOTICE: First Boot Setup Has Completed"
 
 

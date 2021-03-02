@@ -33,3 +33,6 @@ the instructions in the DEPLOYMENT section.
 the expected functionality.
 
 8. Destroy the cloud workstation when you are finished with it, using `terraform destroy`
+
+
+**[Watch the Video](https://youtu.be/CFBc_rCU2z0)**

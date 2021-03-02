@@ -34,9 +34,12 @@ sed -i "s|ZZZZZZZZZZ|$DIR|" README.md
 4. Run the head command to see the resultant changes:
 
 ```
-`head -n19 README.md`
+head -n19 README.md
 ```
 
 5. Type `git add README*` and then `git commit -m "Updated README"`
 6. Push it to Github: `git push origin main`
 7. Check it out on Github by refreshing that browser tab.
+
+
+**[Watch the Video](https://youtu.be/CY5uZ2sbZI0)**
