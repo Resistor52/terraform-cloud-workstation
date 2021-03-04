@@ -16,6 +16,10 @@ variable "aws_region" {
   description = "The AWS region to deploy the resources to"
 }
 
+variable "aws_availability_zone" {
+  description = "The AWS availability zone to deploy the resources to"
+}
+
 variable "aws_creds_file" {
   description = "The full path to the .aws/credentials file"
 }

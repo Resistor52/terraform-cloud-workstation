@@ -14,6 +14,7 @@ terraform project. Type `cd ~/tech` and then press TAB, then ENTER.
 ```
 aws_pem = "~/cloud_workstation.pem"
 aws_region = "us-east-1"
+availability_zone = "us-east-1a"
 aws_creds_file = "~/.aws/credentials"
 aws_profile = "myterraform"
 ```
