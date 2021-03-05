@@ -21,7 +21,7 @@ variable "aws_creds_file" {
 }
 
 variable "aws_profile" {
-  description = "The profile in the credentials tile to use"
+  description = "The profile in the credentials file to use"
 }
 
 variable "aws_pem" {

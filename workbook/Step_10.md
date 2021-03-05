@@ -27,7 +27,7 @@ resource "aws_subnet" "work-subnet" {
   vpc_id                  = aws_vpc.work-vpc.id
   cidr_block              = "10.0.1.0/24"
   map_public_ip_on_launch = "true" #it makes this a public subnet
-  availability_zone       = "us-east-1a"
+  availability_zone       = "${var.aws_region}a"
   tags = {
     Name = "work-subnet"
   }
