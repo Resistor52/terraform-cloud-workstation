@@ -8,7 +8,6 @@ should see something like:
 4 drwxrwxr-x 4 cloudshell-user cloudshell-user 4096 Mar  2 21:09 .
 4 drwxr-xr-x 7 cloudshell-user cloudshell-user 4096 Mar  2 21:09 ..
 4 drwxrwxr-x 8 cloudshell-user cloudshell-user 4096 Mar  2 21:10 .git
-4 -rw-rw-r-- 1 cloudshell-user cloudshell-user   12 Mar  2 21:09 .gitignore
 4 -rw-rw-r-- 1 cloudshell-user cloudshell-user  901 Mar  2 21:05 main.tf
 4 -rw-rw-r-- 1 cloudshell-user cloudshell-user   86 Mar  2 20:59 README.md
 4 -rw-rw-r-- 1 cloudshell-user cloudshell-user  128 Mar  2 21:00 terraform.tfvars
