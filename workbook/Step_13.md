@@ -168,7 +168,7 @@ We cannot. Why? Think about our security group rules. We are allowing port 3389 
 IP address from where the Terraform script is run. Oops. Let's add an additional rule and variable
 for the rule.
 
-2. Open a new tab on your web browser and navigate to http://ipv4.icanhazip.com and copy
+2. Open a new tab on your web browser and navigate to https://api.ipify.org and copy
 the IP address it displays. This is your public IP address.
 
 3. Run `vim terraform.tfvars` enter insert mode, move to the bottom of the file and
